@@ -10,3 +10,4 @@ function wpt_add_google_fonts() {
     }
      
     add_action( 'wp_enqueue_scripts', 'wpt_add_google_fonts' );
+    
