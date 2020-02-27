@@ -57,18 +57,26 @@ wp_reset_postdata();
  
  
 /* The 2nd Query (without global var) */
-/*
+$args2 = array(
+
+    "category_name" => "evenement"
+
+
+);
 $query2 = new WP_Query( $args2 );
- 
+$catID = get_the_category($query2->post->ID);
+
+echo "h1" .category_description($catID[0]). "</h1>";
 // The 2nd Loop
 while ( $query2->have_posts() ) {
     $query2->the_post();
     echo '<li>' . get_the_title( $query2->post->ID ) . '</li>';
+    echo get_the_post_thumbnail(null, "thumbnail");
 }
  
 // Restore original Post Data
 wp_reset_postdata();
-*/ 
+ 
 ?>
 
 		</main><!-- #main -->
