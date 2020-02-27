@@ -1,0 +1,43 @@
+/*
+ Theme Name:   Astral Enfant
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Astral Enfant Theme
+ Author:       Tommy Le Ha
+ Author URI:   http://example.com
+ Template:     Astral
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  Astral Enfant
+*/
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.post-thumbnail{
+    text-align: center;
+}
+.wp-block-cgb-block-my-block{
+    background-color: rgb(88, 164, 226);
+  
+}
+#home{
+    background-color: rgb(17, 67, 110);
+}
+.header_contact{
+    background-color: rgb(91, 166, 231);
+}
+#main-menu.menu1{
+    background-color: rgb(91, 166, 231);
+}
+.footer{
+    background-color: rgb(17, 67, 110);
+}
+.cpy-right{
+    background-color: rgb(91, 166, 231);
+}
+.circle{
+    background-color: rgb(91, 166, 231);
+}
