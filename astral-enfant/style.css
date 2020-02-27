@@ -23,6 +23,15 @@ body{
     background-color: rgb(88, 164, 226);
   
 }
+#home{
+    background-color: rgb(17, 67, 110);
+}
+.header_contact{
+    background-color: rgb(91, 166, 231);
+}
+#main-menu.menu1{
+    background-color: rgb(91, 166, 231);
+}
 .footer{
     background-color: rgb(17, 67, 110);
 }
